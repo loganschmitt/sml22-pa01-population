@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 ##Reading in the data and cleaning it
 with open('PopulationData.csv', 'r') as f:
-     lines = f.readlines()
+    lines = f.readlines()
 world_data = lines[218].strip('\n')
 world_data = world_data.split(',')
 world_data = world_data[5:]
